@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a139bb78-e107-460e-a688-a09b3b33c9ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayerDBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Global.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,37 +113,49 @@
       <option name="presentableId" value="Default" />
       <updated>1582548960219</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic multiple client server and insert">
+      <created>1582556255101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582556255101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic multiple client server and insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic multiple client server and insert" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1324" y="442" key="#Project_Structure" timestamp="1582556150868">
+    <state x="1324" y="442" key="#Project_Structure" timestamp="1582980718342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1324" y="442" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1582556150868" />
-    <state x="1537" y="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1582555639671">
+    <state x="1324" y="442" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1582980718342" />
+    <state x="1537" y="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1582983625031">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1537" y="493" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1582555639671" />
-    <state x="1282" y="377" key="CommitChangelistDialog2" timestamp="1582556205077">
+    <state x="1537" y="493" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1582983625031" />
+    <state x="1282" y="377" key="CommitChangelistDialog2" timestamp="1582985556336">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1282" y="377" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1582556205077" />
-    <state width="1570" height="313" key="GridCell.Tab.0.bottom" timestamp="1582555061320">
+    <state x="1282" y="377" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1582985556336" />
+    <state width="1570" height="316" key="GridCell.Tab.0.bottom" timestamp="1582556348972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1570" height="313" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582555061320" />
-    <state width="1570" height="313" key="GridCell.Tab.0.center" timestamp="1582555061320">
+    <state width="1570" height="316" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582556348972" />
+    <state width="1570" height="316" key="GridCell.Tab.0.center" timestamp="1582556348972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1570" height="313" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582555061320" />
-    <state width="1570" height="313" key="GridCell.Tab.0.left" timestamp="1582555061320">
+    <state width="1570" height="316" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582556348972" />
+    <state width="1570" height="316" key="GridCell.Tab.0.left" timestamp="1582556348972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1570" height="313" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582555061320" />
-    <state width="1570" height="313" key="GridCell.Tab.0.right" timestamp="1582555061320">
+    <state width="1570" height="316" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582556348972" />
+    <state width="1570" height="316" key="GridCell.Tab.0.right" timestamp="1582556348972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1570" height="313" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582555061320" />
+    <state width="1570" height="316" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582556348972" />
     <state x="1775" y="493" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582556199161">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

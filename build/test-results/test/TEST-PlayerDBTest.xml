@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PlayerDBTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-24T14:37:42" hostname="MAIN-PC" time="0.019">
+  <properties/>
+  <testcase name="TestDB" classname="PlayerDBTest" time="0.019"/>
+  <system-out><![CDATA[대한민국
+대한민국
+대한민국
+대한민국
+대한민국
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
