@@ -1,7 +1,8 @@
-import java.io.IOException;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class Server implements Runnable {
@@ -30,8 +31,37 @@ public class Server implements Runnable {
 
     public class Service extends Thread {
         public Socket socket;
+        public BufferedReader in;
+        public DataOutputStream os;
+        public String ip;
+        boolean shutdown = false;
+
         public Service(Socket socket){
-            this.socket = socket;
+            try {
+                this.socket = socket;
+                this.ip = socket.getInetAddress().toString();
+                in = new BufferedReader(new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8));
+                os = new DataOutputStream(socket.getOutputStream());
+            } catch (IOException e){
+                interrupt();
+            }
+        }
+
+        @Override
+        public void run() {
+            while(!shutdown){
+                try{
+                    String value = in.readLine();
+                    switch (value){
+                        case "banlist":
+                            break;
+                        case "player":
+                            break;
+                    }
+                } catch (IOException e){
+                    e.printStackTrace();
+                }
+            }
         }
     }
 }
